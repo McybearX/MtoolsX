@@ -2544,10 +2544,9 @@ def yaudah_iya(user,pasw,loop,tes):
 			for opt in range(len(ngew)):
 				numbur+=1
 				emil("\r "+u+"["+k+f"{numbur}"+u+"]"+l+" "+ngew[opt])
-			emil("")
 			if "0" in str(len(ngew)):
 				emil("\r "+u+"["+h+"X"+u+"]"+h+" Unlock Succes..."+u+" ["+h+"X"+u+"]"+p+" login di mbasic.facebook.com/Fb lite SEKARANG!!!")
-				emil(batas)
+				emil("")
 		elif "Cari" in cup:
 			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw+u+"\n ["+m+"X"+u+"]"+p+" Akun ini Sudah Di Blokir Oleh Facebook \n")
 		elif "Apakah Anda lupa kata sandi?" in cup:
