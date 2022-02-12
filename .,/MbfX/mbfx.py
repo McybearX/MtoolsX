@@ -2498,6 +2498,7 @@ def cek_opsi():
 		sayang = cinta.replace("\n","")
 		gemes = sayang.split(">")
 		yaudah_iya (gemes[0], gemes[1], loop, tes)
+	exit()
 
 # GAK TAU
 
@@ -2542,19 +2543,17 @@ def yaudah_iya(user,pasw,loop,tes):
 			numbur=0
 			for opt in range(len(ngew)):
 				numbur+=1
-				emil("\r "+u+"["+k+f"{numbur}"+"]"+l+" "+ngew[opt])
+				emil("\r "+u+"["+k+f"{numbur}"+u+"]"+l+" "+ngew[opt])
+			emil("")
 			if "0" in str(len(ngew)):
 				emil("\r "+u+"["+h+"X"+u+"]"+h+" Unlock Succes..."+u+" ["+h+"X"+u+"]"+p+" login di mbasic.facebook.com/Fb lite SEKARANG!!!")
 				emil(batas)
 		elif "Cari" in cup:
-			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw+u+"\n ["+m+"X"+u+"]"+p+" Akun ini Sudah Di Blokir Oleh Facebook")
-			emil(batas)
+			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw+u+"\n ["+m+"X"+u+"]"+p+" Akun ini Sudah Di Blokir Oleh Facebook \n")
 		elif "Apakah Anda lupa kata sandi?" in cup:
-			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw)
-			emil(batas)
+			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw+"\n")
 		elif "Anda menggunakan kata sandi lama. Jika lupa kata sandi Anda saat ini, Anda dapat meminta" in cup:
-			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw)
-			emil(batas)
+			emil(u+"\r ["+m+"Unlock Failed"+u+"]"+m+"   "+user+k+" >< "+m+pasw+"\n")
 		else:
 			emil(run)
 			emil(batas)
