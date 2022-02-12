@@ -3,7 +3,7 @@ from bin.McybearX import iklan
 from bin.toktok import *
 m="\x1b[1;91m";h="\x1b[1;92m";k="\x1b[1;93m";b="\x1b[1;94m";u="\x1b[1;95m";l="\x1b[1;96m";p="\x1b[1;97m";emil=print;usup=input;sistem = os.system;mx = u+"ʕ"+m+" x"+u+"_"+m+"×"+u+"ʔ";sup = "\x1b[4;95m               \x1b[0;95m/\x1b[3;91mM\x1b[1;95mcybear\x1b[1;91mX\x1b[0;90m";McybearX = "Usup_Ganteng"
 try:
-	sistem("mkdir .token")
+	os.mkdir(".token")
 	sistem("cd .token && touch MbfX MbfiX MddosX MspamX MbotX")
 	mbfx=open(".token/MbfX","r").read()
 	mbfix=open(".token/MbfiX","r").read()
