@@ -26,6 +26,8 @@ try:
 except:
 	pass
 Emil = open(".Emil.txt","r").read()
+def iklan():
+	os.system("cd ../../bin python McybearX.py")
 def banner():
 	emil("""
 \x1b[1;91m     __  ___ \x1b[1;95m__            __ \x1b[1;91m _  __
@@ -68,6 +70,7 @@ def BotWeb():
 			emil(u+" ["+m+"x"+u+"]"+p+" Isi Menggunakan Angka!!!")
 			BotWeb()
 		emil(" ")
+		iklan()
 		koin=0
 		ko=[]
 		tot=[]
@@ -75,9 +78,9 @@ def BotWeb():
 		with ThreadPoolExecutor(max_workers=30) as kerja:
 			for ucupya in range(brapa):
 				koin+=1
-#				kerja.submit(BotLink,link,tot,koin,brapa,ko)
+				kerja.submit(BotLink,link,tot,koin,brapa,ko)
 #				kerja.submit(BotYutub,link,tot,koin,brapa,ko)
-				BotYutub(link,tot,koin,brapa,ko)
+#				BotYutub(link,tot,koin,brapa,ko)
 		emil(" ")
 		emil(u+" ["+h+"$"+u+"]"+p+" Total : "+h+"$%s"%len(tot))
 		emil(sup+"\n")
@@ -444,6 +447,7 @@ def BotFb(Emil):
 	emil(u+" ["+m+"XX"+u+"]"+b+" Menu Utama")
 	emil(sup)
 	ussup = usup(mx+p+" No : "+m)
+	iklan()
 	if ussup=="1" or ussup=="o1":
 		bot_repot()
 	elif ussup=="2" or ussup=="02":
