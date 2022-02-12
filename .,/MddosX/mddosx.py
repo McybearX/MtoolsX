@@ -6,7 +6,9 @@ from optparse import OptionParser
 from queue import Queue
 import os,time,sys,socket,threading,logging,urllib.request,random
 emil=print
-
+def iklan():
+	os.system("cd ../../bin && python McybearX.py")
+iklan()
 def user_agent():
     global useragent
     skidipapap = open("._McybearX_.txt","r").readlines()
