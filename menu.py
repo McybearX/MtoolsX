@@ -29,6 +29,7 @@ def menu():
 	logo()
 	emil(u+" ["+m+"X"+u+"]"+p+" 𝙰𝚞𝚝𝚑𝚘𝚛  : "+m+"𝙼"+u+"𝚌𝚢𝚋𝚎𝚊𝚛"+m+"𝚇")
 	emil(u+" ["+m+"X"+u+"]"+m+" 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 "+p+": 𝙼𝙱𝙴𝚆𝙻𝙴𝙶𝚂")
+	emil(u+" ["+m+"X"+u+"]"+p+" Version "+p+": 10.8.3")
 	emil(u+" ["+m+"X"+u+"]"+p+" 𝚈𝚘𝚞𝚛 𝙸𝙿 :"+l, requests.get("https://api.ipify.org").text)
 	emil(sup)
 	emil(u+" ["+m+"o1"+u+"]"+p+" Crack FB")
