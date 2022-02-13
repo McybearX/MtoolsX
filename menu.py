@@ -11,7 +11,7 @@ try:
 	mddosx=open(".token/MddosX","r").read()
 	mspamx=open(".token/MspamX","r").read()
 	mbotx=open(".token/MbotX","r").read()
-except KeyError:
+except:
 	pass
 def ting():sistem("play-audio .sound/ting.wav & ")
 def animasi(Yusuf):
