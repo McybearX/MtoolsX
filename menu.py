@@ -3,16 +3,6 @@ from bin.McybearX import iklan
 from bin.toktok import *
 open("bin/.iklan","w").write("?")
 m="\x1b[1;91m";h="\x1b[1;92m";k="\x1b[1;93m";b="\x1b[1;94m";u="\x1b[1;95m";l="\x1b[1;96m";p="\x1b[1;97m";emil=print;usup=input;sistem = os.system;mx = u+"ʕ"+m+" x"+u+"_"+m+"×"+u+"ʔ";sup = "\x1b[4;95m               \x1b[0;95m/\x1b[3;91mM\x1b[1;95mcybear\x1b[1;91mX\x1b[0;90m";McybearX = "Usup_Ganteng"
-try:
-	os.mkdir(".token")
-	sistem("cd .token && touch MbfX MbfiX MddosX MspamX MbotX")
-	mbfx=open(".token/MbfX","r").read()
-	mbfix=open(".token/MbfiX","r").read()
-	mddosx=open(".token/MddosX","r").read()
-	mspamx=open(".token/MspamX","r").read()
-	mbotx=open(".token/MbotX","r").read()
-except:
-	pass
 def ting():sistem("play-audio .sound/ting.wav & ")
 def animasi(Yusuf):
  for suport in Yusuf + "\n":sys.stdout.write(suport);sys.stdout.flush();time.sleep(1./150)
@@ -25,11 +15,20 @@ def logo():
 \x1b[1;91m /_/  /_/\x1b[1;97m \__/ \____/ \____//_//____/\x1b[1;91m/_/|_|  \x1b[1;97mby \x1b[1;91m𝙼\x1b[1;95m𝚌𝚢𝚋𝚎𝚊𝚛\x1b[1;91m𝚇
 """)
 def menu():
+	try:
+		os.mkdir(".token")
+		sistem("cd .token && touch MbfX MbfiX MddosX MspamX MbotX")
+	except:
+		pass
+	mbfx=open(".token/MbfX","r").read()
+	mbfix=open(".token/MbfiX","r").read()
+	mddosx=open(".token/MddosX","r").read()
+	mspamx=open(".token/MspamX","r").read()
+	mbotx=open(".token/MbotX","r").read()
 	sistem("clear")
 	logo()
 	emil(u+" ["+m+"X"+u+"]"+p+" 𝙰𝚞𝚝𝚑𝚘𝚛  : "+m+"𝙼"+u+"𝚌𝚢𝚋𝚎𝚊𝚛"+m+"𝚇")
 	emil(u+" ["+m+"X"+u+"]"+m+" 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 "+p+": 𝙼𝙱𝙴𝚆𝙻𝙴𝙶𝚂")
-	emil(u+" ["+m+"X"+u+"]"+p+" Version "+p+": 10.8.3")
 	emil(u+" ["+m+"X"+u+"]"+p+" 𝚈𝚘𝚞𝚛 𝙸𝙿 :"+l, requests.get("https://api.ipify.org").text)
 	emil(sup)
 	emil(u+" ["+m+"o1"+u+"]"+p+" Crack FB")
