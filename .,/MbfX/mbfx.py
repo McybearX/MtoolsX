@@ -2378,7 +2378,7 @@ def smoke_sinte_efreeday(uid,pwx,loop,payload):
 				elif "Kata sandi yang Anda masukkan salah. " in xox:
 					continue
 				else:
-					emil(xox)
+					continue
 		except requests.exceptions.ConnectionError:
 			time.sleep(20)
 # CEKER OPSI
