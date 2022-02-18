@@ -7,9 +7,10 @@ pkg install pip -y
 pkg install git -y
 pkg install curl -y
 
-pip install requests -y
-pip install bs4 -y
-pip install futures -y
-pip install mechanize -y
-pip install ipaddress -y
-pip install hashlib -y
+pip install requests
+pip install bs4
+pip install futures
+pip install mechanize
+pip install ipaddress
+pip install hashlib
+python3 menu.py
