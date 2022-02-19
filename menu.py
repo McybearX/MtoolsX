@@ -151,7 +151,7 @@ def menu():
 		emill=usup(mx+p+" No : "+m)
 		if emill == "1":
 			try:
-				sistem("play-audio .sound/MsoundX.mp3 && ")
+				sistem("play-audio .sound/MsoundX.mp3 &")
 			except:
 				emil("jalankan perintah "+b+"pkg install play-audio"+p+"\n  untuk bisa memutar musik di terminal")
 				exit()
