@@ -1087,7 +1087,6 @@ def publik():
 				junet = cew["name"]
 				id.append(jamet+"|"+junet)
 				emil_lope_usup(b+jamet+u+" | "+p+junet)
-				time.sleep(1./500)
 			except:
 				continue
 		emil(balmond+l+" Total ID : "+h+"%s"%(len(id)))
