@@ -19,22 +19,12 @@ def info_toket():
 	logo()
 	emil(u+" ["+k+" INFO"+u+" ]\n")
 	animasi(p+""" Sebelum kamu menggunakan semua fitur yang ada di MtoolsX ini,kamu harus memasukan token terlebih dahulu , token yang dimaksud bukanlah token fb atau token lainya, melainkan token tersendiri dari McybearX,dan hanya ada di tools ini.
- Dan untuk mendapatkan token itu sendiri sangat mudah,kamu hanya perlu mendownload file txt menggunakan link dibawah,file itu berisi token MtoolsX, dan nantinya kamu hanya perlu menyalin token itu dan tempelkaan disini, jika masih bingung silahkan kunjungi channel youtube MBEWLEGS.
- JIKA SUDAH MENDAPATKAN TOKEN TEKAN ENTER
+ Dan untuk mendapatkan token itu sendiri sangat mudah,kamu hanya perlu mendownload file txt ini,file itu berisi token MtoolsX, dan nantinya kamu hanya perlu menyalin token itu dan tempelkaan disini, jika masih bingung silahkan kunjungi channel youtube MBEWLEGS.
 
- TOKEN MTOOLSX
-
- CRACK FB    = https://cararegistrasi.com/Nhms3UJvF
-
- CRACK IG    = https://cararegistrasi.com/aWQvji3W
-
- DDOS ATTACK = https://cararegistrasi.com/O6oOMm2X
-
- SPAM BRUTAL = https://cararegistrasi.com/TyFy5LZFE
-
- BOT FB/WEB  = https://cararegistrasi.com/OICOAmSnq
+ TEKAN ENTER UNTUK MELANJUTKAN!!!
+ KAMU AKAN DIARAHKAN KE BROWSER ,DAN MELEWATI reCHAPTCA, LALU DOWNLOAD FILE.TXT NYA
 """)
-	usup(b+" [ENTER]")
+	usup(b+" [ MENGERTI ]")
 def menu():
 	try:
 		os.mkdir(".token")
@@ -72,6 +62,7 @@ def menu():
 			sistem("cd .,/MbfX && python mbfx.py")
 		else:
 			info_toket()
+			sistem("xdg-open https://cararegistrasi.com/Nhms3UJvF")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
 			if iw==tok1:
 				iklan()
@@ -88,6 +79,7 @@ def menu():
 			sistem("cd .,/MbfiX && python mbfix.py")
 		else:
 			info_toket()
+			sistem("xdg-open https://cararegistrasi.com/aWQvji3W")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
 			if iw==tok2:
 				iklan()
@@ -105,6 +97,7 @@ def menu():
 			sistem("cd .,/MddosX && python mddosx.py")
 		else:
 			info_toket()
+			sistem("xdg-open https://cararegistrasi.com/O6oOMm2X")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
 			if iw==tok1:
 				iklan()
@@ -124,6 +117,7 @@ def menu():
 			sistem("cd .,/MspamX && python mspamx.py")
 		else:
 			info_toket()
+			sistem("xdg-open https://cararegistrasi.com/TyFy5LZFE")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
 			if iw==tok4:
 				iklan()
@@ -140,6 +134,7 @@ def menu():
 			sistem("cd .,/MbotX && python mbotx.py")
 		else:
 			info_toket()
+			sistem("xdg-open https://cararegistrasi.com/OICOAmSnq")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
 			if iw==tok4:
 				iklan()
@@ -205,4 +200,5 @@ if McybearX == "Usup_Ganteng":
 #	sistem("play-audio .sound/MsoundX.mp3 & ")
 	sistem("git pull")
 	menu()
+
 
