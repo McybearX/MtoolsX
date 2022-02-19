@@ -1079,7 +1079,7 @@ def publik():
 		time.sleep(0.5)
 		exit()
 	try:
-		bulu = requests.get("https://graph.facebook.com/"+uid+"/friends?limit=10000&access_token="+token)
+		bulu = requests.get("https://graph.facebook.com/"+uid+"/friends?access_token="+token)
 		buriq = json.loads(bulu.text)
 		for cew in buriq["data"]:
 			try:
