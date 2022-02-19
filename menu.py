@@ -197,7 +197,7 @@ def Mcybear():
 		Mcybear()
 
 if McybearX == "Usup_Ganteng":
-#	sistem("play-audio .sound/MsoundX.mp3 & ")
+#	sistem("git stash")
 	sistem("git pull")
 	menu()
 
