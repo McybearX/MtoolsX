@@ -2381,7 +2381,7 @@ def smoke_sinte_efreeday(uid,pwx,loop,payload):
 				else:
 					continue
 		except requests.exceptions.ConnectionError:
-			time.sleep(20)
+			time.sleep(30)
 # CEKER OPSI
 def ceker(uid,pw,ua,tahunnya):
 	user = uid
@@ -2561,5 +2561,4 @@ def yaudah_iya(user,pasw,loop,tes):
 		time.sleep(31)
 
 if __name__ == '__main__':
-#	os.system("git pull")
 	menu()
