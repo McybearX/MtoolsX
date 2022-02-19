@@ -1095,6 +1095,8 @@ def publik():
 			time.sleep(3)
 			menu()
 		mode_password()
+	except KeyError:
+	  pass
 	except requests.exceptions.ConnectionError:
 		jalan(balmond+m+" Tidak Ada Internet")
 		time.sleep(0.5)
