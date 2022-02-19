@@ -1824,9 +1824,9 @@ def gabungkan3():
 
 # SOND DE SIP
 def okeh():
-	os.system("play-audio ../../.sound/ok.wav & ")
+	os.system("cd ../../.sound && play-audio ok.wav")
 def cepeh():
-	os.system("play-audio ../../.sound/cp.wav & ")
+	os.system("cd ../../.sound && play-audio cp.wav")
 # Api Panas
 def api(uid,pwx,loop):
 	if "random" in random_gak:
