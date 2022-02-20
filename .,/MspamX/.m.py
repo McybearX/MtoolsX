@@ -48,13 +48,13 @@ def kolor():
 	cia=int(usup(mx+p+" No : "+m))
 	ciu=usup(mx+p+" Masukan Title Baru : ")
 	if cia==1:
-		open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.info","w").write(ciu)
+		open(".custome/.info","w").write(ciu)
 		menu()
 	elif cia==2:
-		open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.author","w").write(ciu)
+		open(".custome/.author","w").write(ciu)
 		menu()
 	elif cia==3:
-		open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.github","w").write(ciu)
+		open(".custome/.github","w").write(ciu)
 		menu()
 	else:
 		emil(mx+m+" Input Salah!!!")
@@ -62,27 +62,27 @@ def kolor():
 		menu()
 def menu():
 	global nohap,koin,tot
-	os.mkdir(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎")
+	os.mkdir(".custome")
 	try:
-		open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.info","a")
-		open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.author","a")
-		open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.github","a")
+		open(".custome/.info","a")
+		open(".custome/.author","a")
+		open(".custome/.github","a")
 	except:
 		pass
 	klir()
 	logo()
-	emil(u+" ["+m+"×"+u+"] "+k+"𝚒𝚗𝚏𝚘    "+p+":"+k, open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.info","r").read().replace("\n",""))
-	emil(u+" ["+m+"𝚡"+u+"] "+p+"𝙰𝚞𝚝𝚑𝚘𝚛  :", str(open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.author","r").read().replace("\\"," ")))
-	emil(u+" ["+m+"X"+u+"] "+m+"𝚈𝚘𝚞𝚝𝚞𝚋𝚎"+p+" : MBEWLEGS")
-	emil(u+" ["+m+"𝚡"+u+"] "+p+"𝙶𝚒𝚝𝚑𝚞𝚋  :"+b, open(".𝚌𝚞𝚜𝚝𝚘𝚖𝚎/.github","r").read().replace("\n",""))
-	emil(u+" ["+m+"×"+u+"] "+p+"𝚈𝚘𝚞𝚛 𝙸𝙿 :"+l, kantor.get("https://api.ipify.org").text)
+	emil(u+" ["+m+"×"+u+"] "+k+"Info    "+p+":"+k, open(".custome/.info","r").read().replace("\n",""))
+	emil(u+" ["+m+"𝚡"+u+"] "+p+"Author  :", str(open(".custome/.author","r").read().replace("\\"," ")))
+	emil(u+" ["+m+"X"+u+"] "+m+"Youtube"+p+" : MBEWLEGS")
+	emil(u+" ["+m+"𝚡"+u+"] "+p+"Github  :"+b, open(".custome/.github","r").read().replace("\n",""))
+	emil(u+" ["+m+"×"+u+"] "+p+"Your Ip :"+l, kantor.get("https://api.ipify.org").text)
 	emil("\x1b[1;95m￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣\x1b[0;00m")
-	emil(u+" ["+m+"o1"+u+"]"+p+" Ｓｐａｍ Ｓｍｓ "+b+"("+p+"BukuWarung"+b+")")
-	emil(u+" ["+m+"o2"+u+"]"+p+" Ｓｐａｍ Ｃａｌｌ "+b+"("+p+"BTS"+b+")")
-	emil(u+" ["+m+"o3"+u+"]"+p+" Ｓｐａｍ Ｗａ "+b+"("+p+"Tokped"+b+")")
-	emil(u+" ["+m+"o4"+u+"]"+p+" Ｓｐａｍ Ｂｒｕｔａｌ "+b+"("+p+"sms"+b+"+"+p+"wa"+b+"+"+p+"call"+b+")")
-	emil(u+" ["+m+"o5"+u+"]"+p+" ℂ𝕦𝕤𝕥𝕠𝕞𝕖")
-	emil(u+" ["+m+"o6"+u+"]"+p+" 𝙹𝚘𝚒𝚗 𝙶𝚛𝚘𝚞𝚙 𝚆𝙰")
+	emil(u+" ["+m+"o1"+u+"]"+p+" Spam Sms "+b+"("+p+"BukuWarung"+b+")")
+	emil(u+" ["+m+"o2"+u+"]"+p+" Spam Call "+b+"("+p+"BTS"+b+")")
+	emil(u+" ["+m+"o3"+u+"]"+p+" Spam Wa "+b+"("+p+"Tokped"+b+")")
+	emil(u+" ["+m+"o4"+u+"]"+p+" Spam Brutal "+b+"("+p+"sms"+b+"+"+p+"wa"+b+"+"+p+"call"+b+")")
+	emil(u+" ["+m+"o5"+u+"]"+p+" Custome")
+	emil(u+" ["+m+"o6"+u+"]"+p+" Join Grup Wa")
 	emil(sup)
 	puput = usup(mx+p+" No : "+m)
 	if puput=="1" or puput=="01":
