@@ -197,7 +197,7 @@ def Mcybear():
 		Mcybear()
 
 if McybearX == "Usup_Ganteng":
-#	sistem("git stash")
+	sistem("git stash")
 	sistem("git pull")
 	menu()
 
