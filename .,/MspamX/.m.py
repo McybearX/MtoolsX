@@ -62,8 +62,8 @@ def kolor():
 		menu()
 def menu():
 	global nohap,koin,tot
-	os.mkdir(".custome")
 	try:
+		os.mkdir(".custome")
 		open(".custome/.info","a")
 		open(".custome/.author","a")
 		open(".custome/.github","a")
