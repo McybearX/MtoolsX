@@ -27,7 +27,7 @@ except:
 	pass
 Emil = open(".Emil.txt","r").read()
 def iklan():
-	os.system("cd ../../bin python McybearX.py")
+	os.system("cd ../../bin && python McybearX.py")
 def banner():
 	emil("""
 \x1b[1;91m     __  ___ \x1b[1;95m__            __ \x1b[1;91m _  __
@@ -515,7 +515,7 @@ def bot_komen(Emil):
 # BOT LIKE
 
 def bot_reak(Emil):
-	Emil = open("../.Emil.txt","r").read()
+	Emil = open(".Emil.txt","r").read()
 	emil(sup)
 	emil(u+" ["+m+"o1"+u+"]"+p+" BOT Boom Like Publik")
 	emil(u+" ["+m+"o2"+u+"]"+p+" BOT Boom Love Publik")
@@ -591,7 +591,7 @@ def bot_reak(Emil):
 			emil(mx+p+" Status  : "+jangan)
 			try:
 				parameters = {'access_token' : Emil , 'type' : type}
-				Post = requests.post("https://graph.facebook.com/"+__Emil__,data=parameters)
+				Post = requests.post("https://graph.facebook.com/"+__Emil__+"/reactions?",data=parameters)
 				sabaar = json.loads(Post.text)
 				if "success" in sabaar:
 					sukses.append(type)
