@@ -129,14 +129,14 @@ def menu():
 			exit()
 	elif yakan==5:
 		ting()
-		if mspamx==tok4:
+		if mbotx==tok5:
 			iklan()
 			sistem("cd .,/MbotX && python mbotx.py")
 		else:
 			info_toket()
 			sistem("xdg-open https://cararegistrasi.com/OICOAmSnq")
 			iw=usup(mx+p+" Masukan Token : \x1b[0;00m")
-			if iw==tok4:
+			if iw==tok5:
 				iklan()
 				anj=open(".token/MbotX","w");anj.write(iw);anj.close()
 				sistem("cd .,/MbotX && python mbotx.py")
